@@ -16,4 +16,7 @@ Line 64: Replace <IP LIST/FQDN YOU CHOOSE> with list of IP addresses or websites
 
 Make sure that both files(myscript.sh and cities.txt) are in the same directory/folder so the script can read the text file. You can choose different cities if you choose. The script will curl the weather from the website in the script, pull the city names from the file, and the terminal will display the weather from the cities listed in the file.
 
+note: run: sudo apt install sl
+       Do this before running the script, this will allow the last part of the script to run. It will install a simple script that simulates a steam train driving by on the terminal.
+
 Thank you again for checking out my project, hopefully you have fun with it and learn like I did.
